@@ -4,9 +4,12 @@
   background-color: aqua;
   text-align: center;
   padding: 20px;
+  text-size: 40px;
+
   }
     /* Navbar links */
     .topnav  {
+        box-sizing: border-box;
         float: left;
         display: block;
         color:crimson;
@@ -15,6 +18,9 @@
         text-decoration: none;
         overflow: hidden;
         background-color: #333;
+        font-style: italic;
+        font-size: 30px;
+        
     }
     
     /* Links - change color on hover */
@@ -32,11 +38,15 @@ p.sanserif {
 }
 
 .body{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 24px;
     border-style: solid;
     border-width: 5px;
     float: left;
-        padding: 10px;
-        background-color: darkorange;
-        text-align: justify;
-        text-decoration-style: wavy
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: justify;
+    text-decoration-style: wavy;
 }
+
